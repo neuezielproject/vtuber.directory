@@ -1,0 +1,67 @@
+/* 重設樣式 */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 基本樣式 */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #111; /* 黑色背景 */
+    color: #fff; /* 白色字體 */
+    transition: background-color .5s ease;
+  }
+  
+  /* 暗黑模式 */
+  body.dark-mode {
+    background-color: #fff; /* 白色背景 */
+    color: #111; /* 黑色字體 */
+  }
+  
+  /* 頁首樣式 */
+  header {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* 頁首標題樣式 */
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* 頁面容器樣式 */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 切換模式按鈕樣式 */
+  #mode-toggle {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s ease;
+  }
+  
+  /* 切換模式按鈕樣式：暗黑模式 */
+  #mode-toggle.dark-mode {
+    border-color: #111;
+    color: #111;
+  }
+  
+  /* Font Awesome 圖示樣式 */
+  .fas {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
